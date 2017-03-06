@@ -5,8 +5,7 @@
   "version": "1.2.0-rc.1",
   "author": "Carlos Galan Cladera <cgcladera@gmail.com>",
   "license": "MIT",
-  "author_url": "www.carlosgalancladera.net",
-  "github_url": "http://github.com/cladera/videojs-cuepoints",
+  "github_url": "http://github.com/VadimBrodsky/videojs-cuepoints",
   "main": "build/videojs.cuepoints.js",
   "scripts": {
     "prepublish": "rm -rf build/*",
