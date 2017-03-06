@@ -1,5 +1,5 @@
 import videojs from 'video.js';
-import Cuepoint from './cuepoints';
+import Cuepoint from './cuepoint';
 
 function vjsCuepoints(options) {
     var player = this;
@@ -34,4 +34,8 @@ function vjsCuepoints(options) {
     player.cuepoints.init(options);
 }
 
-videojs.plugin('cuepoints', vjsCuepoints);
+(function registerPlugin() {
+  videojs.plugin('cuepoints', vjsCuepoints);
+})();
+
+export { vjsCuepoints as default };
