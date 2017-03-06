@@ -1,3 +1,6 @@
+import videojs from 'video.js';
+import Cuepoint from './cuepoints';
+
 function vjsCuepoints(options) {
     var player = this;
     player.cuepoints = player.cuepoints || {};

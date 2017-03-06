@@ -56,3 +56,5 @@ Cuepoint.prototype.destroy = function() {
     var self = this;
     this.player.off("timeupdate", this.processHandler);
 };
+
+export { Cuepoint as default };

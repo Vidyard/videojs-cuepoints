@@ -2,13 +2,12 @@
   "name": "cuepoints",
   "title": "VideoJS Cuepoints plugin",
   "distName": "videojs.cuepoints",
-  "version": "1.2.0-rc.2",
+  "version": "1.2.0-vy.2",
   "author": "Carlos Galan Cladera <cgcladera@gmail.com>",
   "license": "MIT",
   "github_url": "http://github.com/VadimBrodsky/videojs-cuepoints",
-  "main": "build/videojs.cuepoints.js",
+  "main": "src/core.cuepoints.js",
   "scripts": {
-    "prepublish": "grunt"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -16,5 +15,8 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-contrib-uglify": "^2.2.0"
+  },
+  "dependencies": {
+    "video.js": "5.17.*"
   }
 }
