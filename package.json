@@ -8,11 +8,10 @@
   "author_url": "www.carlosgalancladera.net",
   "github_url": "http://github.com/cladera/videojs-cuepoints",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-s3": "~0.2.0-alpha.2",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0"
   }
 }
