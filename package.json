@@ -6,7 +6,7 @@
   "author": "Carlos Galan Cladera <cgcladera@gmail.com>",
   "license": "MIT",
   "github_url": "http://github.com/VadimBrodsky/videojs-cuepoints",
-  "main": "src/core.cuepoints.js",
+  "main": "src/core.cuepoint.js",
   "scripts": {
   },
   "devDependencies": {
