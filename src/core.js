@@ -19,7 +19,6 @@ function vjsCuepoints(options) {
         player.cuepoints.instances.push(cp);
         return cp;
     };
-    
 
     player.addCuepoint = function(options) {
         return player.cuepoints._addCuepoint(options);
